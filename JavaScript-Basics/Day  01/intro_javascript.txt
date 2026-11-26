@@ -1,4 +1,8 @@
+JAVASCRIPT FUNDAMENTALS — STUDY NOTES
+================================================
+
 What Is JavaScript, and How Does It Work with HTML and CSS?
+-----------------------------------------------------------
 
 JavaScript is a powerful programming language that brings interactivity and dynamic behavior to websites.
 
@@ -8,7 +12,6 @@ For example, when you click a button, submit a form, or hover over a menu, JavaS
 
 Here's an example of how these three work together:
 
-CODE
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,8 +40,8 @@ CSS is used to apply styles to the heading, such as making the text green. JavaS
 To sum up, HTML provides structure, CSS adds styling, and JavaScript enables behavior, creating a complete and interactive web experience.
 
 
-
 What Is a Data Type, and What Are the Different Data Types in JavaScript?
+------------------------------------------------------------------------
 
 In JavaScript, a data type is the kind of value you store, like a number or piece of text.
 
@@ -119,7 +122,7 @@ In this example, we create a BigInt by adding n at the end of a very large numbe
 
 Symbol and BigInt are two types that are less commonly used, but they are still important to know about.
 
-Understanding these data types helps you handle and work with various kinds of data in your programs, as each type has its own characteristics and behaviors. 
+Understanding these data types helps you handle and work with various kinds of data in your programs, as each type has its own characteristics and behaviors.
 
 What Are Variables in JavaScript
 In JavaScript, variables act as containers for storing data that you can access and modify throughout your program.
@@ -210,6 +213,7 @@ By following these guidelines, your code will be cleaner and more manageable as 
 
 
 How Do let and const Work Differently When It Comes to Variable Declaration, Assignment, and Reassignment?
+------------------------------------------------------------------------
 When working with JavaScript, you'll often declare variables to store data that you plan to use throughout your program.
 
 In modern JavaScript, let and const are the preferred ways to declare variables, but they differ in how they handle value assignment and reassignment.
@@ -265,6 +269,7 @@ Use const when you want to declare variables that should remain constant, like c
 You can also use the var keyword, but it's not as recommended anymore. The var keyword is kind of like let, except it has a wider scope, which is more likely to cause problems in your program.
 
 What Is a String in JavaScript, and What Is String Immutability?
+----------------------------------------------------------------
 In JavaScript, a string is a sequence of characters used to represent text data. Strings are one of the primitive data types in the language, along with numbers, booleans, null, and undefined.
 
 To create a string in JavaScript, you can use single quotes (') or double quotes (").
@@ -296,6 +301,7 @@ Strings are an important part of programming, and in future lessons, you will le
 
 
 What Is String Concatenation, and How Can You Concatenate Strings with Variables?
+------------------------------------------------------------------------
 In JavaScript, working with text is an essential part of coding, and often, you'll need to combine or join pieces of text together. This process is called string concatenation.
 
 In this lesson, we'll focus on how string concatenation works, specifically using the + operator, the += operator, and the concat() method.
@@ -307,7 +313,7 @@ Here's an example:
 let firstName = "John";
 let lastName = "Doe";
 
-let fullName = firstName + " " + lastName; 
+let fullName = firstName + " " + lastName;
 console.log(fullName); // John Doe
 In this example, we used the + operator to concatenate the firstName and lastName variables along with a space (" ") to create the full name.
 
@@ -318,7 +324,7 @@ Here is an example where a space is missing:
 let firstName = "John";
 let lastName = "Doe";
 
-let fullName = firstName + lastName; 
+let fullName = firstName + lastName;
 console.log(fullName); // JohnDoe
 Whenever you use the + operator to concatenate strings, it is important to double-check for any potential spacing issues.
 
@@ -347,7 +353,7 @@ Here's an example of using the concat() method to join two strings together:
 let str1 = 'Hello';
 let str2 = 'World';
 
-let result = str1.concat(' ', str2); 
+let result = str1.concat(' ', str2);
 console.log(result); // Hello World
 In this example, we use the concat() method to join str1, a space (' '), and str2 into a single string.
 
@@ -359,6 +365,7 @@ Finally, the concat() method is beneficial when you need to concatenate multiple
 
 
 What Is the Role of Semicolons in JavaScript, and Programming in General?
+------------------------------------------------------------------------
 Just as a period (.) can mark the end of a sentence in English, a semicolon (;) can be used to mark the end of a statement in JavaScript. However, statements are not necessarily the same thing as lines of source code. A statement can span multiple lines, and a single line can contain more than one statement.
 
 For example:
